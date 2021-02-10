@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 1.1rem;
+}
+
+body {
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Crimson Text", sans-serif;
+}
+
+.quiz-container{
+    background-color: #fff;
+    width: 400px;
+    max-width: 90%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.quiz-content{
+    padding: 2rem;
+}
+
+.button{
+    background-color:#3498db;
+    border: none;
+    display: block;
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+}
+
+.button:hover{
+    background-color: #2b7eb4;
+    cursor: pointer;
+}
+
+
+
+
+
+
+h1{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+}
